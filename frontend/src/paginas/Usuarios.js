@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate} from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import API from "../api/api";
 import NavbarAdmin from "../componentes/NavbarAdmin";
 
