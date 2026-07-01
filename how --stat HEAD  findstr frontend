@@ -1,0 +1,77 @@
+[33mcommit db340f5499baa22b127f21b24e7743ff698b28c0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Maria Estudiante <mariaestudiante53@gmail.com>
+Date:   Sun Jun 28 23:25:15 2026 -0600
+
+    Primer commit del proyecto
+
+ backend/backend/__init__.py                        |     0
+ .../backend/__pycache__/__init__.cpython-313.pyc   |   Bin [31m0[m -> [32m171[m bytes
+ .../backend/__pycache__/settings.cpython-313.pyc   |   Bin [31m0[m -> [32m2761[m bytes
+ backend/backend/__pycache__/urls.cpython-313.pyc   |   Bin [31m0[m -> [32m1118[m bytes
+ backend/backend/__pycache__/wsgi.cpython-313.pyc   |   Bin [31m0[m -> [32m659[m bytes
+ backend/backend/asgi.py                            |    16 [32m+[m
+ backend/backend/settings.py                        |   132 [32m+[m
+ backend/backend/urls.py                            |    23 [32m+[m
+ backend/backend/wsgi.py                            |    16 [32m+[m
+ backend/cafeteria/__init__.py                      |     0
+ .../cafeteria/__pycache__/__init__.cpython-313.pyc |   Bin [31m0[m -> [32m173[m bytes
+ .../cafeteria/__pycache__/admin.cpython-313.pyc    |   Bin [31m0[m -> [32m170[m bytes
+ backend/cafeteria/__pycache__/apps.cpython-313.pyc |   Bin [31m0[m -> [32m543[m bytes
+ .../cafeteria/__pycache__/models.cpython-313.pyc   |   Bin [31m0[m -> [32m7437[m bytes
+ .../__pycache__/serializers.cpython-313.pyc        |   Bin [31m0[m -> [32m4189[m bytes
+ backend/cafeteria/__pycache__/urls.cpython-313.pyc |   Bin [31m0[m -> [32m1080[m bytes
+ .../cafeteria/__pycache__/views.cpython-313.pyc    |   Bin [31m0[m -> [32m3428[m bytes
+ backend/cafeteria/admin.py                         |     0
+ backend/cafeteria/apps.py                          |     6 [32m+[m
+ backend/cafeteria/migrations/__init__.py           |     0
+ .../__pycache__/__init__.cpython-313.pyc           |   Bin [31m0[m -> [32m184[m bytes
+ backend/cafeteria/models.py                        |   105 [32m+[m
+ backend/cafeteria/serializers.py                   |    49 [32m+[m
+ backend/cafeteria/tests.py                         |     3 [32m+[m
+ backend/cafeteria/urls.py                          |    18 [32m+[m
+ backend/cafeteria/views.py                         |    35 [32m+[m
+ backend/manage.py                                  |    22 [32m+[m
+ backend/requirements.txt                           |   Bin [31m0[m -> [32m396[m bytes
+ frontend/.gitignore                                |    23 [32m+[m
+ frontend/README.md                                 |    70 [32m+[m
+ frontend/package-lock.json                         | 17441 [32m+++++++++++++++++++[m
+ frontend/package.json                              |    42 [32m+[m
+ frontend/public/favicon.ico                        |   Bin [31m0[m -> [32m3870[m bytes
+ frontend/public/index.html                         |    43 [32m+[m
+ frontend/public/logo192.png                        |   Bin [31m0[m -> [32m5347[m bytes
+ frontend/public/logo512.png                        |   Bin [31m0[m -> [32m9664[m bytes
+ frontend/public/manifest.json                      |    25 [32m+[m
+ frontend/public/robots.txt                         |     3 [32m+[m
+ frontend/src/App.css                               |    38 [32m+[m
+ frontend/src/App.js                                |    72 [32m+[m
+ frontend/src/App.test.js                           |     8 [32m+[m
+ frontend/src/api/api.js                            |     5 [32m+[m
+ frontend/src/componentes/AdminRoute.js             |    12 [32m+[m
+ frontend/src/componentes/ClienteRoute.js           |    10 [32m+[m
+ frontend/src/componentes/Contenido1.js             |    16 [32m+[m
+ frontend/src/componentes/Footer.js                 |     9 [32m+[m
+ frontend/src/componentes/MenuCliente.js            |    32 [32m+[m
+ frontend/src/componentes/MenuPublico.js            |    33 [32m+[m
+ frontend/src/componentes/Navbar.js                 |    19 [32m+[m
+ frontend/src/componentes/NavbarAdmin.js            |    28 [32m+[m
+ frontend/src/componentes/NavbarCliente.js          |    59 [32m+[m
+ frontend/src/index.css                             |    13 [32m+[m
+ frontend/src/index.js                              |    19 [32m+[m
+ frontend/src/logo.svg                              |     1 [32m+[m
+ frontend/src/paginas/AdminControl.js               |    55 [32m+[m
+ frontend/src/paginas/Categorias.js                 |    36 [32m+[m
+ frontend/src/paginas/Cliente.js                    |    90 [32m+[m
+ frontend/src/paginas/ClienteControl.js             |    29 [32m+[m
+ frontend/src/paginas/Estudiante.js                 |   149 [32m+[m
+ frontend/src/paginas/Home.js                       |    16 [32m+[m
+ frontend/src/paginas/Login.js                      |    78 [32m+[m
+ frontend/src/paginas/MisDatos.js                   |   105 [32m+[m
+ frontend/src/paginas/Pedidos.js                    |    40 [32m+[m
+ frontend/src/paginas/Productos.js                  |    58 [32m+[m
+ frontend/src/paginas/ProductosCliente.js           |   327 [32m+[m
+ frontend/src/paginas/ProductosNuevo.js             |   283 [32m+[m
+ frontend/src/paginas/Usuarios.js                   |   127 [32m+[m
+ frontend/src/reportWebVitals.js                    |    13 [32m+[m
+ frontend/src/setupTests.js                         |     5 [32m+[m
+ models.py                                          |     0
+ 70 files changed, 19857 insertions(+)
